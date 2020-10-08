@@ -1,0 +1,115 @@
+@font-face {
+  font-family: 'Quicksand', sans-serif;
+}
+
+.container {
+  border-radius: 28px;
+  background-color: rgba(242,242,242,0.9);
+  padding: 20px;
+  max-width: 700px;
+  align-content: center;
+  margin: auto;
+  text-align: left;
+}
+
+
+.logo{
+  display: block;
+ margin-left: auto;
+ margin-right: auto;
+}
+
+
+#link2{
+  font-size: 16px;
+}
+
+#headingtop, #textcontent, #note{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#headingtop{
+  font-size: 60px;
+}
+
+#textcontent{
+  font-size: 24px;
+}
+
+#note{
+  font-size: 20px;
+}
+
+a.link{
+  color: #36D1DC;
+  background-color: transparent;
+}
+a:visited {
+  color: #5B86E5;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #ff3f34;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+input[type=button] {
+  background-image: linear-gradient(to right, #36D1DC, #5B86E5);
+  color: white;
+  font-weight: 100;
+  padding: 12px 25px;
+  border: None;
+  border-radius: 24px;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  outline: None;
+}
+
+
+
+input[type=reset] {
+  background-image: linear-gradient(to right, #36D1DC, #5B86E5);
+  color: white;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  outline: None;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 20px;
+  font-weight: 100;
+}
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 22px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  font-family: 'Quicksand', sans-serif;
+  outline-color: #E100FF;
+}
+
+mark{
+  background-color: #36D1DC
+}
+
+body {font-family: 'Quicksand', sans-serif;
+}
+* {box-sizing: border-box;}
+
+body {
+     margin: 0;
+     padding: 0;
+     text-align: left;
+     background-image: linear-gradient(to right, #36D1DC, #5B86E5);
+}

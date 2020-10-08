@@ -1,0 +1,80 @@
+<hmtl>
+  <head>
+    <title>Ticket Creation Form</title>
+    <meta charset="UTF-8">
+    <!--Viewport is used to adjust how content is viewed on a device.
+    Setting width equal to device-width means the page will adapt to the width of the device on which it is displayed-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Linking our CSS Stylesheet-->
+    <link rel="stylesheet" href="css/style.css">
+    <!--Importing our font pack from Google Servers. This font pack is free to use without licensing costs.
+    If this font pack is not found, system default font will be used.
+    More information can be found here: https://fonts.google.com/specimen/Quicksand?query=Quicksand-->
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Linking our backend Javascript file
+  -->
+    <script src="js/script2.js">
+    </script>
+
+<!-- FC Logo shown at the top-->
+  <img src="fclogo.png" alt="Friesland Campina Logo" class="logo">
+    <div id="headingtop">
+      <u>Welcome to HR Services</u>
+    </div>
+    <div id="textcontent"><h3>Please fill the below form in the proper format.</h3></div>
+    <div id="note"><h4><u>Please note that * marked fields are mandatory.</u></h4></div>
+
+
+    <div class="container">
+      <form id="ticket">
+
+        <label for="subjectLabel"><b>Enter your subjectline*:</b></label><br>
+        <input type="text" id="subject" name="subjectText" placeholder="Enter your subject line"><br>
+
+
+        <label for="module"><b>Select category*:<b></label><br>
+          <select id="mod1" name="mod" onchange="displayAccordingly()">
+            <option value="">Nothing Selected</option>
+            <option value="LOGIN">Login Issue/Password Reset/Single Sign On</option>
+            <option value="EC">Employee Information</option>
+            <option value="COMP">Compensation Data</option>
+            <option value="PMTM">Performance Data</option>
+            <option value="BOOMI">Interface Issues/Data Transfer Issues</option>
+            <option value="RCM">Recruiting Management</option>
+            <option value="LRN">Learning Management</option>
+            <option value="HH">Helping Henry</option>
+            <option value="PP">People Portal</option>
+            <option value="PA">People Analytics</option>
+            <option value="MI">My Insights</option>
+            <option value="NMA">Not Mentioned Above</option>
+          </select>
+          <br>
+          <label for="subcat">Select sub-category*:</label>
+          <br>
+          <div id='mod2'>
+            <select id="newDropdownMenu">
+              <option value="">---</option>
+            </select>
+          </div>
+
+          <div id="wuser">
+          </div>
+          <br>
+
+
+          <label for="desc">Description*: (Kindly drag from the bottom right corner to resize this field)</label><br>
+          <textarea name="desc" id="descta" form="ticket" placeholder="Enter your problem description here..." rows="23" wrap="soft"></textarea><br>
+          <label for="attachments">Clicking Submit button will check the form for any errors. If no errors are found a mail window will open. <mark>Attachments can be added inside the mail window.</mark></label><br><br>
+
+          <label for="submit">Submit Form:</label><br>
+          <input type="button" onclick="callall()" name="validate" value="Submit"><br><br>
+
+          <label for="reset">Reset the form fields:</label><br>
+          <input type="button" value="Reset" onclick="rstpage()">
+        </form>
+      </div>
+      <br>
+    </body>
+    </html>
