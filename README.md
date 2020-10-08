@@ -1,6 +1,9 @@
 # Dispatching Automation
 
 The goal of this repository is to showcase my work on automating the ticket dispatching activity on an ITSM tool called Assyst.
+The code shared is best viewed with Atom.
+The index html is the main page created for the task. The rest of the scripts can be located in their respective folders.
+The Logo, Target emails and Team Name have been changed for security reasons.
 
 ----
 
