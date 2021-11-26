@@ -3,7 +3,6 @@
 The goal of this repository is to showcase my work on automating the ticket dispatching activity on an ITSM tool called Assyst.
 The code shared is best viewed with Atom.
 The index html is the main page created for the task. The rest of the scripts can be located in their respective folders.
-The Logo, Target emails and Team Name have been changed for security reasons.
 
 ----
 
@@ -42,13 +41,13 @@ The Logo, Target emails and Team Name have been changed for security reasons.
 
 
 ### 1. Structural Changes in the team
-+ Earlier, we had one team configured in Horizon, which included all members from our team irrespective of the module that they worked on.
++ Earlier, we had one team configured in our ticketing tool, which included all members from our team irrespective of the module that they worked on.
 + The following changes were suggested by me:  
-   a. One single large team in Assyst should be split into smaller teams as per the module they belonged to.  
-   b. Each ticket should be assigned to a team bucket and not to individual consultant.  
+   a. One single large team in Assyst should be split into smaller teams divided by modules.  
+   b. Each ticket should be assigned to a team bucketlist and not to individual consultant.
    c. Each consultant would co-ordinate with his/her team about his/her workload and take up responsibility for the tickets accordingly.  
    d. After a specific period of time, a report would be pulled from the system, which would count the number of tickets resolved by each consultant. If tickets were distributed unequally, the consultants would then adjust their distribution next week accordingly.  
-+ The above suggestions if implemented, would mean that the load and concern about distribution of tickets was now on the consultants. This in turn would help to balance out the dispathcer's load.
++ The above suggestions if implemented, would mean that the partial load and concern about distribution of tickets was now on the consultants. This in turn would help to balance out the dispatcher's load.
 + A call was to be scheduled every morning to ensure, that communication within each module was constant.
 
 ### 2. Changes in Assyst Tool
