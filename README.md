@@ -25,14 +25,14 @@ The index html is the main page created for the task. The rest of the scripts ca
 
 ### 2. Challenges with Assyst Tool
 + Assyst was smart enough to recognize keywords in the subject line of incoming emails. However, the number of keywords was vast.
-+ For example, A simple ticket for password reset issue could have multiple subject lines like: 
-   Login Issue
-   Trouble Logging In
-   Password Expired
-   Cannot Login
-   Password Reset
-   Please reset password
-   and so on..
++ For example, A simple ticket for password reset issue could have multiple subject lines like:   
+   Login Issue  
+   Trouble Logging In  
+   Password Expired  
+   Cannot Login  
+   Password Reset  
+   Please reset password  
+   and so on..  
 + Since we received many different types of requests apart from just Password Reset requests, relying on keywords alone was not a valid option
 
 ----
