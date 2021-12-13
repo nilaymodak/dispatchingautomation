@@ -44,16 +44,16 @@ The index html is the main page created for the task. The rest of the scripts ca
 + Earlier, we had one team configured in our ticketing tool, which included all members from our team irrespective of the module that they worked on.
 + The following changes were suggested by me:  
    a. One single large team in Assyst should be split into smaller teams divided by modules.  
-   b. Each ticket should be assigned to a team bucketlist and not to individual consultant.
+   b. Each ticket should be assigned to a team bucketlist and not to individual consultant.  
    c. Each consultant would co-ordinate with his/her team about his/her workload and take up responsibility for the tickets accordingly.  
    d. After a specific period of time, a report would be pulled from the system, which would count the number of tickets resolved by each consultant. If tickets were distributed unequally, the consultants would then adjust their distribution next week accordingly.  
 + The above suggestions if implemented, would mean that the partial load and concern about distribution of tickets was now on the consultants. This in turn would help to balance out the dispatcher's load.
 + A call was to be scheduled every morning to ensure, that communication within each module was constant.
 
 ### 2. Changes in Assyst Tool
-+ Assyst Ticketing Tool could classify ticket if we could inform the configuration team to only look for specific keywords. Since new modules were created we informed the Assyst configuration team with 5-10 keywords, which were names of each of the modules.
++ Assyst Ticketing Tool could classify ticket if we could inform the configuration team to only look for specific keywords. Since new modules were created we informed the Assyst configuration team with 5-10 keywords, which were names of each of the modules.  
 + An HTML Form was created, which would allow our end users a.k.a **Clients** to fill the details of their issue and select the issue category.  
-+ After clicking the submit button, a mail window would open, with the subject line and mail body pre-configured as per the contents filled in the HTML Form. The important thing to note is that, this pre-configured subject line will have the module name set as the prefix.
-+ By doing this, each ticket that will be raised for any module, will go to Assyst with a subject line that contains a keyword that Assyst can identify. Furthermore, after identification, Assyst was configured to automatically assign the ticket to the respective module.
-+ Initially, when customers were not aware of this new method of raising tickets, the dispatcher's load was reduced by 5-8% per month.
-+ Over time, as new clients start using this method to create ticket, we can expect 70-80% automation in dispatching activity. If all clients were to **_ONLY use this method to raise tickets**_, then we can aim for 100% automation of the activity.
++ After clicking the submit button, a mail window would open, with the subject line and mail body pre-configured as per the contents filled in the HTML Form. The important thing to note is that, this pre-configured subject line will have the module name set as the prefix.  
++ By doing this, each ticket that will be raised for any module, will go to Assyst with a subject line that contains a keyword that Assyst can identify. Furthermore, after identification, Assyst was configured to automatically assign the ticket to the respective module.  
++ Initially, when customers were not aware of this new method of raising tickets, the dispatcher's load was reduced by 5-8% per month.  
++ Over time, as new clients start using this method to create ticket, we can expect 70-80% automation in dispatching activity. If all clients were to **_ONLY use this method to raise tickets**_, then we can aim for 100% automation of the activity.  
