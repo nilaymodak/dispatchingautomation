@@ -45,10 +45,10 @@ The index html is the main page created for the task. The rest of the scripts ca
 + The following changes were suggested by me:  
    a. One single large team in Assyst should be split into smaller teams divided by modules.  
    b. Each ticket should be assigned to a team bucketlist and not to individual consultant.  
-   c. Each consultant would co-ordinate with his/her team about his/her workload and take up responsibility for the tickets accordingly.  
+   c. Each consultant would co-ordinate with their module team about their workload and take up responsibility for the tickets accordingly.  
    d. After a specific period of time, a report would be pulled from the system, which would count the number of tickets resolved by each consultant. If tickets were distributed unequally, the consultants would then adjust their distribution next week accordingly.  
-+ The above suggestions if implemented, would mean that the partial load and concern about distribution of tickets was now on the consultants. This in turn would help to balance out the dispatcher's load.
-+ A call was to be scheduled every morning to ensure, that communication within each module was constant.
++ The above suggestions if implemented, would mean that the partial load and concern about distribution of tickets was now on the consultants. This in turn would help to balance out the dispatcher's load.  
++ A call was to be scheduled every morning to ensure, that communication within each module was constant.  
 
 ### 2. Changes in Assyst Tool
 + Assyst Ticketing Tool could classify ticket if we could inform the configuration team to only look for specific keywords. Since new modules were created we informed the Assyst configuration team with 5-10 keywords, which were names of each of the modules.  
