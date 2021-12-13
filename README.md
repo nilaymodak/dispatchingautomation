@@ -20,7 +20,7 @@ The index html is the main page created for the task. The rest of the scripts ca
 + Adding more resources to the team for the role of dispatcher was not an option.
 + Due to high number of tickets logged, other resources from the team were needed to resolve the tickets. Hence no more resources could be alloted to assist the Dispatching activity
 + Since, some consultants could already be overloaded, all the rework for reassigning tickets to particular consultants also fell on the dispatcher.
-+ The dispatcher had to assign tickets to members from a module in looping fashion. For example, if ticket#1 for a module went to Consultant#1. Ticket#2 for that module should go to Consultant#2. This method had to be followed for all modules. It was easy to lose track of which was the last consultant to whom the ticket was assigned. This may cause the dispatcher to accidentally assign 2 tickets to a certain consultants.
++ The dispatcher had to assign tickets to members from a module in looping fashion. For example, if Ticket1 for a module went to Consultant1. Ticket2 for that module should go to Consultant2. This method had to be followed for all modules. It was easy to lose track of which was the last consultant to whom the ticket was assigned. This may cause the dispatcher to accidentally assign 2 tickets to certain consultants.
 + There was a severe need for a methodology that can assist the dispatcher.
 
 ### 2. Challenges with Assyst Tool
