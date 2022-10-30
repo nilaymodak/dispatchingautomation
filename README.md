@@ -56,6 +56,6 @@ The index html is the main page created for the task. The rest of the scripts ca
 + After clicking the submit button, a mail window would open, with the subject line and mail body pre-configured as per the contents filled in the HTML Form. The important thing to note is that, this pre-configured subject line will have the module name set as the prefix.  
 + By doing this, each ticket that will be raised for any module, will go to Assyst with a subject line that contains a keyword that Assyst can identify. Furthermore, after identification, Assyst was configured to automatically assign the ticket to the respective module.  
 
-### 3. Impact  
+## Impact  
 + Initially, when customers were not aware of this new method of raising tickets, the dispatcher's load was reduced by 5-8% per month.  
 + Over time, as new clients start using this method to create ticket, we can expect 70-80% automation in dispatching activity. If all clients were to **ONLY use this method to raise tickets**, then we can aim for 100% automation of the activity.  
